@@ -100,6 +100,12 @@ body {
     border-radius: 50%;
     margin: 10px;
     font-size: 2rem;
+    transition: transform 500ms ease;
+}
+
+.action:hover {
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .actions .action:nth-child(1) {
@@ -117,3 +123,15 @@ body {
     width: 48px;
     font-size: 1.5rem;
 }
+
+/* Desltop View */
+@media(min-width: 1025px) {
+    .photo {
+        width: 367px;
+        height: 684px;
+    }
+
+    .navbar {
+        width: 400px;
+        margin: auto;
+    }
