@@ -63,3 +63,57 @@ body {
     )
 }
 
+.photo-name-and-age {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+}
+
+.photo-name-and-age h2:nth-child(2) {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.photo-bio {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    margin: 1rem, 0; 
+}
+
+.action {
+    background: #fff;
+    box-shadow: 0, 2, 6, 0, rgba(112, 125, 134, 0.14);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.actions .action:nth-child(1) {
+    color: #fd5068
+}
+
+.actions .action:nth-child(3) {
+    color: #1be4a1;
+}
+
+.actions .action:nth-child(2) {
+    margin: 0 1rem;
+    color: #2db1ff;
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;
+}
